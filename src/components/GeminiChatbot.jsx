@@ -50,7 +50,7 @@ const GeminiChatbot = () => {
     const API_KEY = import.meta.env.VITE_GEMINI_API_KEY
     
     // Use mock responses if no API key is configured
-    if (!API_KEY || API_KEY === 'YOUR_API_KEY_HERE') {
+    if (!API_KEY || API_KEY === 'AIzaSyBqLLXuX7F7livvIPMia-vHBmHOJbGabJk') {
       const mockResponses = [
         "I can help you with recruitment analytics, applicant management, and interview scheduling. What specific information would you like to know?",
         "Based on your dashboard, you have 1,284 total applicants with 342 interviews scheduled. Would you like more details about any specific metric?",
